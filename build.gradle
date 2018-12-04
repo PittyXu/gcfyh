@@ -1,0 +1,13 @@
+apply plugin: 'java'
+apply plugin: 'application'
+
+sourceCompatibility = 1.8
+mainClassName = "Main"
+
+repositories {
+  mavenCentral()
+}
+
+dependencies {
+  compile 'org.apache.pdfbox:pdfbox:2.0.13'
+}
